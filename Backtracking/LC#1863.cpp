@@ -10,7 +10,7 @@ public:
         }
     }
     int subsetXORSum(vector<int>& nums) {
-        vector<vector<int>> res;
+        vector<vector<int>> res; 
         vector<int> curr;
         int result=0;
         backtrack(0,nums,curr,res);
