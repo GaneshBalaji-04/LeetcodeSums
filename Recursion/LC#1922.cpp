@@ -40,3 +40,4 @@ Intuition - Even possibilities - 5 {0,2,4,6,8}
         For odd n, above trick does not work, so x*solve(x,n-1) which will make n even, making it to implement above technique.
         
         mod is done at most places for avoiding overflow...
+*/
