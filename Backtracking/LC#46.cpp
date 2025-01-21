@@ -4,7 +4,7 @@ class Solution {
             result.push_back(curr);
 
         for (int i = 0; i < nums.size(); i++) {
-            if (find(curr.begin(), curr.end(), nums[i]) == curr.end()) {
+            if (find(curr.begin(), curr.end(), nums[i]) == curr.end()) { //This check is to avoid inserting duplicate elements in curr vector...
                 curr.push_back(nums[i]);
                 backtrack(result, curr, nums);
                 curr.pop_back();
